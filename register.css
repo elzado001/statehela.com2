@@ -253,6 +253,7 @@ header {
 
     .nav-links a {
         font-size: 16px;
+        margin: 5px 8px;
     }
     .register-requirements .container {
         flex-direction: column;
