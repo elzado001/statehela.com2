@@ -16,47 +16,32 @@ body {
 .navbar {
     background: #333;
     color: #fff;
-    padding: 20px 0;
-}
-
-.navbar .logo {
+    padding: 10px 0;
+  }
+  
+  .navbar .logo {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-}
-
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.menu-toggle .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 4px 0;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
+  }
+  
+  .nav-links {
     float: right;
-}
-
-.nav-links a {
+  }
+  
+  .nav-links a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
     font-size: 20px;
-    font-weight: 300;
+  }
+  
+  .nav-links a:hover {
     text-decoration: underline;
-}
-
-.nav-links a:hover {
     color: gold;
-}
+  }
+
 
 /* Header */
 header {
@@ -259,13 +244,12 @@ header {
         font-size: 20px;
     }
 
+   
     .nav-links {
         float: none;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        
-    }
+        text-align: center;
+        margin-top: 10px;
+      }
 
     .nav-links a {
         font-size: 16px;
