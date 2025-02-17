@@ -272,12 +272,16 @@ h3 {
     .faq{
         width: 100%;
     }
+     .faq-item{
+        padding: 10px;
+    }
+   
     .hero{
         width: 100%;
     }
     
     .navbar .logo {
-        font-size: 20px;
+        font-size: 22px;
     }
 
    
@@ -289,7 +293,8 @@ h3 {
       }
 
     .nav-links a {
-        font-size: 16px;
+        font-size: 19px;
+        margin: 8px 10px;
     }
 
     .hero {
@@ -318,32 +323,32 @@ h3 {
 
    
     
-    /* hanging buttons */
     .floating-buttons {
-        right: 10px; /* Adjust position for smaller screens */
-        bottom: -20px;
+        right: 10px;
+        bottom: 10px;
+    }
 
+    .whatsapp-btn {
+        height: 50px;
+        width: 50px;
     }
 
     .register-btn {
-        font-size: 18px; /* Reduce font size for better fit */
-        padding: 4px 12px; /* Adjust padding */
-        border-radius: 15px;
-        bottom: -20px;
+        font-size: 18px;
+        padding: 5px 10px;
     }
-    .whatsapp-btn{
-        height: 40px;
-        width: 40px;
-    } 
 }
 
 @media (max-width: 480px) {
     .faq{
         width: 100%;
     }
+    .faq-item{
+        padding: 10px;
+    }
    
     .navbar .logo {
-        font-size: 18px;
+        font-size: 20px;
     }
 
    
@@ -354,7 +359,8 @@ h3 {
       }
      
     .nav-links a {
-        font-size: 14px;
+        font-size: 17px;
+        margin: 8px 10px;
     }
 
     .hero-text h1 {
@@ -381,21 +387,18 @@ h3 {
         flex-direction: column;
         gap: 10px;
     }
-    /* hanging buttons */
     .floating-buttons {
-        right: 7px; /* Adjust position for smaller screens */
-        bottom: -20px;
+        right: 10px;
+        bottom: 10px;
+    }
 
+    .whatsapp-btn {
+        height: 50px;
+        width: 50px;
     }
 
     .register-btn {
-        font-size: 16px; /* Reduce font size for better fit */
-        padding: 4px 10px; /* Adjust padding */
-        border-radius: 15px;
-        bottom: -20px;
+        font-size: 18px;
+        padding: 5px 10px;
     }
-    .whatsapp-btn{
-        height: 40px;
-        width: 40px;
-    } 
 }
