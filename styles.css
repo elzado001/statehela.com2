@@ -11,48 +11,46 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+      
 /* Navigation Bar */
 .navbar {
     background: #333;
     color: #fff;
-    padding: 15px 0;
+    padding: 20px 0;
     position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar .logo {
+    top: -10px;
+  }
+  
+  .navbar .logo {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-}
-
-.nav-links {
+  }
+  
+  .nav-links {
     float: right;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
+    padding: 20px 10px;
+    
+  }
+  
+  .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 200;
+    margin: 0 15px;
+    
+  }
+  
+  .nav-links a:hover {
     text-decoration: underline;
-}
-
-.nav-links a:hover {
     color: gold;
-}
+  }
 
 /* Hero Section */
 .hero {
     width: 80%;
-    margin: auto;
+    margin: 0px auto;
     height: 70vh;
     display: flex;
     align-items: center;
@@ -96,15 +94,6 @@ body {
     transform: translateY(-10px);
 }
 
-.hero-image {
-    flex: 1;
-    text-align: right;
-}
-
-.hero-image img {
-    max-width: 100%;
-    height: auto;
-}
 
 /* Who We Are Section */
 .who-we-are {
@@ -280,20 +269,24 @@ h3 {
 }
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
+    .faq{
+        width: 100%;
+    }
     .hero{
         width: 100%;
     }
+    
     .navbar .logo {
         font-size: 20px;
     }
 
+   
     .nav-links {
         float: none;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
+        text-align: center;
         
-    }
+        padding: 4px 4px;
+      }
 
     .nav-links a {
         font-size: 16px;
@@ -323,9 +316,7 @@ h3 {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
-    .faq {
-        width: 90%;
-    }
+   
     
     /* hanging buttons */
     .floating-buttons {
@@ -347,17 +338,20 @@ h3 {
 }
 
 @media (max-width: 480px) {
+    .faq{
+        width: 100%;
+    }
+   
     .navbar .logo {
         font-size: 18px;
     }
 
+   
     .nav-links {
         float: none;
-        display: flex;
-        
-        gap: 5px;
         text-align: center;
-    }
+        padding: 10px;
+      }
      
     .nav-links a {
         font-size: 14px;
@@ -381,9 +375,7 @@ h3 {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
-    .faq {
-        width: 95%;
-    }
+    
 
     .footer-links {
         flex-direction: column;
