@@ -341,7 +341,8 @@ h3 {
 
 @media (max-width: 480px) {
     .faq{
-        width: 100%;
+        width: 92%;
+        padding: 10px;
     }
     .faq-item{
         padding: 10px;
