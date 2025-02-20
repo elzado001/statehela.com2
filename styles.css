@@ -306,7 +306,6 @@ h3 {
 
     .hero-text h1 {
         font-size: 36px;
-        margin-top: 36px;
     }
 
     .hero-text p {
@@ -365,9 +364,12 @@ h3 {
         margin: 8px 10px;
     }
     
-    
+    .hero{
+        
+        height: 90%;
+    }
     .hero-text h1 {
-        margin-top: 30px;
+        
         font-size: 28px;
     }
 
